@@ -12,7 +12,9 @@ def shift():
     This functions shifts the alphabet the number of times the user chooses
     :return: new alphabet
     """
-    user_shift = int(input("How many letters do you want to shift the alphabet? Pick a number between 1 - 25."))
+    user_shift = int(input("How many letters do you want to shift the alphabet? Pick a number between 0 - 26."))
+    if user_shift > 26:
+
     first = alphabet[0:user_shift]
     last = alphabet[user_shift:]
     alphabet_two = last + first

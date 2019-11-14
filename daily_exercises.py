@@ -79,8 +79,8 @@
 #
 # # print(replace_four("Suzie is a nice person"))
 #
-#
-# # problem eight
-# def bubble_sort(names):
-#     for x in range(len(names)):
-#
+
+# problem eight
+def bubble_sort(names):
+    for x in range(len(names)- 1):
+
