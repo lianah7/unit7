@@ -16,7 +16,6 @@ for letter in words:
     print(letter)
 
 
-# problem three
 def without_end(word):
     word = word[1: -1]
     return word
